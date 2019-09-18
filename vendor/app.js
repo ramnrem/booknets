@@ -75,4 +75,12 @@ $(document).ready(function () {
 			$('.single-line-form').slideDown();
 		}
 	});
+
+	$('.project__item').mouseenter(function(){
+		$('.project__item').removeClass('active');
+		$(this).addClass('active');
+	}).mouseleave(function(){
+		$(this).removeClass('active');
+		$('.project__item').first().addClass('active');
+	});
 })

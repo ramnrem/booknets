@@ -179,7 +179,7 @@ ul {
   margin: 0 auto 80px auto; }
 
 .project__item:not(.active) {
-  background: #fff; }
+  background: #fff !important; }
 
 .project__item {
   background-size: cover;
